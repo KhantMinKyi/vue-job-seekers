@@ -2,7 +2,7 @@
 import logo from "@/assets/img/logo.png";
 </script>
 <template>
-  <nav class="bg-slate-600 border-b border-slate-500">
+  <nav class="bg-slate-600 border-b border-slate-600">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="flex h-20 items-center justify-between">
         <div
@@ -19,17 +19,17 @@ import logo from "@/assets/img/logo.png";
             <div class="flex space-x-2">
               <a
                 href="index.html"
-                class="text-whi bg-cyan-600 hover:bg-cyan-900 hover:text-white rounded-md px-3 py-2"
+                class="text-cyan-500 border-cyan-500 border hover:bg-cyan-900 hover:text-white rounded-md px-3 py-2"
                 >Home</a
               >
               <a
                 href="jobs.html"
-                class="text-white hover:bg-cyan-900 hover:text-white rounded-md px-3 py-2"
+                class="text-white hover:bg-cyan-900 hover:text-white hover:border-cyan-500 hover:border rounded-md px-3 py-2"
                 >Jobs</a
               >
               <a
                 href="add-job.html"
-                class="text-white hover:bg-cyan-900 hover:text-white rounded-md px-3 py-2"
+                class="text-white hover:bg-cyan-900 hover:text-white hover:border-cyan-500 hover:border rounded-md px-3 py-2"
                 >Add Job</a
               >
             </div>
